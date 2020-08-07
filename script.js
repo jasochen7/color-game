@@ -92,21 +92,16 @@ function makeTiles(){
             var tileColor = this.style.backgroundColor;
             if (tileColor === correctColor){
                 feedbackDisplay.textContent = "Correct!"
-                changeAllColors(correctColor);
                 h1.style.backgroundColor = correctColor; 
                 resetButton.textContent = "Play again?"
+                for (var x = 0; x < tiles.length; x++){
+                    tiles[x].style.backgroundColor = tileColor; 
+                }
             }
             else {
                 this.style.backgroundColor = "#474747"; 
                 feedbackDisplay.textContent = "Try Again"
             }
         });
-    }
-}
-
-//Define a function that changes the colors of every tile when the correct color is picked
-function changeAllColors(color) {
-    for (var x = 0; x < tiles.length; x++){
-        tiles[x].style.backgroundColor = color; 
     }
 }
