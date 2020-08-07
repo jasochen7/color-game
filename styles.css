@@ -1,0 +1,85 @@
+body {
+    background-color: #474747;
+    margin: 0; 
+    font-family: "Avenir"; 
+    text-transform: uppercase;
+}
+
+.mode {
+    text-align: left;
+    position: relative;  
+}
+
+#colorDisplay {
+    font-size: 200%; 
+}
+.tile {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 25px;
+    transition: background 0.5s; 
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s; 
+}
+
+#gamespace {
+    max-width: 700px;
+    margin: 10px auto; 
+}
+
+h1{
+    text-align: center; 
+    color: white;
+    background: steelblue; 
+    margin: 0; 
+    font-weight: normal;
+    line-height: 1.1; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#feedback {
+    display: inline-block; 
+    width: 20%; 
+    height: 100%; 
+    font-weight: 650; 
+    color: steelblue; 
+    letter-spacing: 1.5px;
+    font-size: inherit;
+    transition: all, 0.5s; 
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s; 
+}
+#bar {
+    background: white; 
+    text-align: center; 
+}
+
+.selected {
+    color: white; 
+    background-color: steelblue;
+}
+
+button {
+    border: none; 
+    background: none;
+    font-family: "Avenir";
+    text-transform: uppercase;
+    height: 100%; 
+    font-weight: 650; 
+    color: steelblue; 
+    letter-spacing: 1.5px;
+    font-size: inherit;
+    transition: all, 0.5s; 
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s; 
+    outline: none;
+}
+
+button:hover{
+    color: white; 
+    background-color: steelblue;
+}
