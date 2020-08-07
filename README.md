@@ -6,3 +6,5 @@ Either download zip file or clone with HTTPS
 
 ## Built with
  * Javascript
+ * HTML
+ * CSS
